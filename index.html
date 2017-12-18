@@ -1,379 +1,1348 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="utf-8" />
+		<title>法兰克首页</title>
+		<meta name="Description" content="是一家定制家具服务网站" />
+		<meta name="Keywords" content="法兰克,法兰克家具,法兰克定制家具,定制家具" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/all_style.css" />
+		<link rel="stylesheet" type="text/css" href="css/g1212.css"/>
+		<script src="js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/all_style.js" type="text/javascript" charset="utf-8"></script>
+	</head>
 
-  <title>zhaoyshine</title>
-  <meta name="keywords" content="zhaoyshine" />
-  <meta name="description" content="zhaoyshine" />
-  <meta name="keywords" content="zhaoyshine" />
-  <meta name="author" content="Codrops" />
-  <link rel="shortcut icon" href="favicon.ico">
-  <!-- food icons -->
-  <link rel="stylesheet" type="text/css" href="nav/css/organicfoodicons.css" />
-  <!-- demo styles -->
-  <link rel="stylesheet" type="text/css" href="nav/css/demo.css" />
-  <!-- menu styles -->
-  <link rel="stylesheet" type="text/css" href="nav/css/component.css" />
-  <script src="nav/js/modernizr-custom.js"></script>
-</head>
+	<body>
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-06
+        	描述：页头
+       -->
 
-<body>
-  <!-- Main container -->
-  <div class="container">
-    <!-- Blueprint header -->
-    <header class="bp-header cf">
-      <a href="/">
-        <div class="dummy-logo">
-          <div class="dummy-icon foodicon foodicon--coconut"></div>
-          <h2 class="dummy-heading">zhaoyshine</h2>
-        </div>
-      </a>
-    </header>
-    <button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
-    <nav id="ml-menu" class="menu">
-      <button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
-      <div class="menu__wrap">
-        <ul data-menu="main" class="menu__level">
-          <li class="menu__item"><a class="menu__link" data-submenu="submenu-1" href="#">游戏</a></li>
-          <!-- <li class="menu__item"><a class="menu__link" data-submenu="submenu-2" href="#">动画</a></li>
-          <li class="menu__item"><a class="menu__link" data-submenu="submenu-3" href="#">照片</a></li>
-          <li class="menu__item"><a class="menu__link" data-submenu="submenu-4" href="#">随机事件</a></li> -->
-        </ul>
-        <!-- Submenu 1 -->
-        <ul data-menu="submenu-1" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="game_plane.html">烟花缭乱小飞机</a></li>
-          <!-- <li class="menu__item"><a class="menu__link" href="#">Roots &amp; Seeds</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Cabbages</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Salad Greens</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Mushrooms</a></li>
-          <li class="menu__item"><a class="menu__link" data-submenu="submenu-1-1" href="#">Sale %</a></li> -->
-        </ul>
-        <!-- Submenu 1-1 -->
-        <ul data-menu="submenu-1-1" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="#">Fair Trade Roots</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Dried Veggies</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Our Brand</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Homemade</a></li>
-        </ul>
-        <!-- Submenu 2 -->
-        <ul data-menu="submenu-2" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="#">Citrus Fruits</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Berries</a></li>
-          <li class="menu__item"><a class="menu__link" data-submenu="submenu-2-1" href="#">Special Selection</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Tropical Fruits</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Melons</a></li>
-        </ul>
-        <!-- Submenu 2-1 -->
-        <ul data-menu="submenu-2-1" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="#">Exotic Mixes</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Wild Pick</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Vitamin Boosters</a></li>
-        </ul>
-        <!-- Submenu 3 -->
-        <ul data-menu="submenu-3" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="#">Buckwheat</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Millet</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Quinoa</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Wild Rice</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Durum Wheat</a></li>
-          <li class="menu__item"><a class="menu__link" data-submenu="submenu-3-1" href="#">Promo Packs</a></li>
-        </ul>
-        <!-- Submenu 3-1 -->
-        <ul data-menu="submenu-3-1" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="#">Starter Kit</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">The Essential 8</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Bolivian Secrets</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Flour Packs</a></li>
-        </ul>
-        <!-- Submenu 4 -->
-        <ul data-menu="submenu-4" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="#">Grain Mylks</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Seed Mylks</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Nut Mylks</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Nutri Drinks</a></li>
-          <li class="menu__item"><a class="menu__link" data-submenu="submenu-4-1" href="#">Selection</a></li>
-        </ul>
-        <!-- Submenu 4-1 -->
-        <ul data-menu="submenu-4-1" class="menu__level">
-          <li class="menu__item"><a class="menu__link" href="#">Nut Mylk Packs</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Amino Acid Heaven</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Allergy Free</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="content">
-      <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+       
+       <div class="gtop_h big_width">
+       </div>
+       
+       <div class="gtop_header big_width">
+       		<div class="width_twelve center gtop_h_box">
+       			<p><a href="index.html">首页</a></p>	
+       			<ul class="gtop_h_dlzxg right">
+       				<li>
+       					<a href="###">登录</a>
+       				</li>
+       				<li>
+       					<a href="###">注册</a>
+       				</li>
+       				<!--<li>
+       					<a href="###">消息通知</a>
+       				</li>-->
+       				<li>
+       					<a href="####">购物车(0)</a>
+       				</li>
+       			</ul>
+       		</div>
+       </div>
 
-      <link rel="stylesheet" href="index_page/css/style.css">
+		<div class="top gtop big_width">
+			<div class="width_twelve center">
+				<div class="logo glogo left">
+					<a href="index.html"><img src="img/top_logo.png" /></a>
+				</div>
+				<div class="gnav_search right">
+					
+					<input type="text" />
+					<a href="####">
+						<img src="img/nav_icon_1.png"/>
+					</a>
+				</div>
+				<div class="nav gnav right">
+					<ul class="list_style_none">
+						<li class="nav_selected">
+							<a href="index.html">首页</a>
+						</li>
+						<!--<li>
+							<a href="jingpin.html">精品套餐</a>
+						</li>-->
+						<li>
+							<a href="quanwu.html">全屋定制</a>
+						</li>
+						<li>
+							<a href="peitao.html">软装家居</a>
+						</li>
+						<li>
+							<a href="tiyanguan.html">体验馆</a>
+						</li>
+						<li>
+							<a href="sheji.html">设计案例</a>
+						</li>
+						<li>
+							<a href="zhuangxiu.html">装修问答</a>
+						</li>
+						<li>
+							<a href="#">在线3D设计</a>
+						</li>
+						<li>
+							<a href="zhaoshang.html">招商加盟</a>
+						</li>
+					</ul>
+				</div>
 
-      <div class="container">
-        <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
-      <style type="text/css">
-      	.st0{fill:#F4EFF3;}
-      	.st1{opacity:0.3;}
-      	.st2{fill:#5C234E;}
-      	.st3{fill:#883277;}
-      	.st4{fill:none;stroke:#007185;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
-      	.st5{fill:#983D82;}
-      	.st6{fill:#E5004E;}
-      	.st7{fill:#EB584D;}
-      	.st8{fill:#FFCE00;}
-      	.st9{display:none;fill:#5C234E;stroke:#5C234E;stroke-miterlimit:10;}
-      	.st10{fill:none;stroke:#5C234E;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-      	.st11{fill:none;stroke:#5C234E;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
-      	.st12{display:none;}
-      	.st13{display:inline;fill:#5C234E;}
-      .st14{display:inline;fill:none;stroke:#5C234E;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-        .st15 {stroke-width:8;}
-      .st16{display:inline;fill:none;stroke:#5C234E;stroke-width:6;stroke-miterlimit:10;}
-      	.st18{fill:#007185;}
-      	.st19{opacity:0.75;fill:#6AB187;}
-        .st17{opacity:0.5;fill:#FFFFFF;}
-        .st20{fill:#FBE1CB;}
-        .st21{fill:#e49a05; opacity:0.5}
-        .st22{fill:#A1408E;}
-        .st23{fill:#C88BBC;}
+			</div>
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-22
+        	描述：二级导航
+     -->
+
+		<div class="big_width erjinav gerjinav">
+			<div class="big_width erjidaoh">
+				<div class="big_width nav_erji text_center">
+					<ul>
+						<li class="erji_1  erji_selected">
+							<a href="#">
+								全部
+							</a>
+						</li>
+						<li class="erji_2">
+							<a href="#">
+								橱柜套餐
+							</a>
+						</li>
+						<li class="erji_3">
+							<a href="#">
+								衣柜套餐
+							</a>
+						</li>
+						<li class="erji_4">
+							<a href="#">
+								客厅套餐
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="big_width erjidaoh">
+				<div class="big_width nav_erji text_center">
+					<ul>
+
+						<li class="qwerji_1  erji_selected">
+							<a href="#">
+								全部
+							</a>
+						</li>
+						<li class="qwerji_2">
+							<a href="#">
+								厨房
+							</a>
+						</li>
+						<li class="qwerji_3">
+							<a href="#">
+								客餐厅
+							</a>
+						</li>
+						<li class="qwerji_4">
+							<a href="#">
+								卧室
+							</a>
+						</li>
+						<li class="qwerji_5">
+							<a href="#">
+								书房
+							</a>
+						</li>
+						<li class="qwerji_6">
+							<a href="#">
+								儿童房
+							</a>
+						</li>
+						<li class="qwerji_7">
+							<a href="#">
+								榻榻米
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="big_width erjidaoh">
+				<div class="big_width nav_erji text_center">
+					<ul>
+
+						<li class="pterji_1  erji_selected">
+							<a href="#">
+								全部
+							</a>
+						</li>
+						<li class="pterji_2">
+							<a href="#">
+								沙发
+							</a>
+						</li>
+						<li class="pterji_3">
+							<a href="#">
+								座椅
+							</a>
+						</li>
+						<li class="pterji_4">
+							<a href="#">
+								茶几
+							</a>
+						</li>
+						<li class="pterji_5">
+							<a href="#">
+								柜架
+							</a>
+						</li>
+						<li class="pterji_6">
+							<a href="#">
+								床
+							</a>
+						</li>
+						<li class="pterji_7">
+							<a href="#">
+								餐桌
+							</a>
+						</li>
+						<li class="pterji_8">
+							<a href="#">
+								床垫
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			
+			<div class="big_width erjidaoh">
+				<div class="big_width nav_erji search_erji text_center">
+					<div class="search_input">
+						<input type="text" />
+						<a class="search_btn" href="#">搜索</a>
+						<div class="clear">
+							
+						</div>
+						<p>
+							<a href="#">全部</a>
+							<a href="#">桌椅</a>
+							<a href="#">茶几</a>
+							<a href="#">橱柜</a>
+						</p>
+					</div>
+				</div>
+			</div>
+					
+					
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-12
+        	描述：banner
+       -->
+
+       <div class="gindex_banner width_twelve center">
+       		<div class="left gbanner_menu">
+       			<ul class="gbmenu_list">
+       				<li>
+       					<div class="gbanner_flyj">
+       						<a href="####">产品分类一</a>
+       					</div>
+       					<div class="gbanner_flej">
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_1.jpg"/>
+       							<span>产品名称产品名称产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_3.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_4.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_2.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       					</div>
+       				</li>
+       				<li>
+       					<div class="gbanner_flyj">
+       						<a href="####">产品分类二</a>
+       					</div>
+       					<div class="gbanner_flej">
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_3.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_4.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_1.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_4.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       					</div>
+       					
+       				</li>
+       				<li>
+       					<div class="gbanner_flyj">
+       						<a href="####">产品分类三</a>
+       					</div>
+       					<div class="gbanner_flej">
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_1.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_2.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_3.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_4.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       					</div>
+       					
+       				</li>
+       				<li>
+       					<div class="gbanner_flyj">
+       						<a href="####">产品分类四</a>
+       					</div>
+       					<div class="gbanner_flej">
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_1.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_2.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_3.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_4.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       					</div>
+       					
+       				</li>
+       				<li>
+       					<div class="gbanner_flyj">
+       						<a href="####">产品分类五</a>
+       					</div>
+       					<div class="gbanner_flej">
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_1.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_2.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_3.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       						<a href="####">
+       							<img src="img/subpage/dz_icon_4.jpg"/>
+       							<span>产品名称</span>
+       						</a>
+       					</div>
+       					
+       				</li>
+       			</ul>
+       		</div>
+       		<div class="right banner_banner">
+       			<div class="banner gbanner">
+					<div class="banner_img">
+						<ul class="lunbo_list">
+							<li>
+								<a href="#"><img src="img/index_banner_sli.jpg" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/index_banner_sli2.jpg" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/index_banner_sli3.jpg" /></a>
+							</li>
+						</ul>	
+					</div>
+		
+
+					<a class="gbnleft_icon gbanner_lunbo_icon" href="#">
+						<img src="img/banner_left_icon.png" />
+					</a>
+					<a class="gbnright_icon gbanner_lunbo_icon" href="#">
+						<img src="img/banner_right_icon.png" />
+					</a>
+		
+
+					<!--<div class="banner_bottom text_center big_width">
+		
+						<img src="img/banner_down_icon.png" />
+		
+					</div>-->
+		
+				</div>
+       		</div>
+       		<div class="clear">
+       			
+       		</div>
+       </div>
+       
+       <div class="width_twelve center gtaochan_zs">
+       		<div class="gtczs_li ">
+       			<img src="img/taochan_img_5.png"/>
+       			<h2>经典田园全屋定制套餐</h2>
+       			<a href="####"></a>
+       		</div>
+       		
+       		<div class="gtczs_li">
+       			<img src="img/taochan_img_2.png"/>
+       			<h2>经典田园全屋定制套餐</h2>
+       			<a href="####"></a>
+       		</div>
+       		<div class="gtczs_li">
+       			<img src="img/taochan_img_4.png"/>
+       			<h2>经典田园全屋定制套餐</h2>
+       			<a href="####"></a>
+       		</div>
+       		<div class="gtczs_li">
+       			<img src="img/taochan_img_5.png"/>
+       			<h2>经典田园全屋定制套餐</h2>
+       			<a href="####"></a>
+       		</div>
+       		<div class="clear">
+       			
+       		</div>
+       </div>
+       
+				
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-06
+        	描述：套餐
+      -->
+      <!--<br /><br /><br /><br /><br /><br />
+		<div class="taochan big_width">
+			<div class="taochan_left">
+				<div class="tctitle">
+					<h2>
+						FALANKE
+					</h2>
+					<h3>
+						DESIGN
+					</h3>
+					<p>
+						经典田园全屋定制套餐
+					</p>
+					<a href="#">
+						了解详情>>
+					</a>
+				</div>
+				<img src="img/taochan_img_1.png" />
+			</div>
+
+			<div class="taochan_right">
+				<div class="taochan_right_top">
+					<div class="taochan_right_top_img">
+
+						<img src="img/taochan_img_2.png" />
+					</div>
+					<div class="taochan_right_top_img">
+						<div class="tctitle">
+							<h2>
+								FALANKE
+							</h2>
+							<h3>
+								DESIGN
+							</h3>
+							<p>
+								经典田园全屋定制套餐
+							</p>
+							<a href="#">
+								了解详情>>
+							</a>
+						</div>
+						<img src="img/taochan_img_3.png" />
+
+					</div>
+
+				</div>
+
+				<div class="taochan_right_bottom">
+					<div class="taochan_right_top_img">
+						<div class="tctitle">
+							<h2>
+								FALANKE
+							</h2>
+							<h3>
+								DESIGN
+							</h3>
+							<p>
+								经典田园全屋定制套餐
+							</p>
+							<a href="#">
+								了解详情>>
+							</a>
+						</div>
+						<img src="img/taochan_img_4.png" />
+					</div>
+					<div class="taochan_right_top_img">
+						<img src="img/taochan_img_5.png" />
+					</div>
+				</div>
+			</div>
+			<div class="clear">
+
+			</div>
+
+		</div>-->
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-06
+        	描述：厨房
+      -->
+		<div id="index_1">
+
+		</div>
+		<div class="width_twelve center fenlei_title">
+			<h3>
+				厨房
+			</h3>
+			<ul class="list_style_none">
+				<li class="fenlei_selected">
+					<a href="#">热门</a>
+				</li>
+				<li>
+					<a href="#">查看更多&gt;&gt;</a>
+				</li>
+			</ul>
+			<div class="clear">
+
+			</div>
+		</div>
+
+		<div class="chanting center width_twelve">
+			<div class="cf_left left">
+				<img src="img/chufang_img1.jpg" />
+				<div class="cf_title">
+					<h2>FALANKE</h2>
+					<h3>DESIGN</h3>
+					<p>
+						经典多功能橱柜系列
+					</p>
+					<a href="#"><img src="img/chufang_icon.png" /></a>
+				</div>
+			</div>
+			<div class="cf_right right">
+				<div class="cf_right_top">
+
+					<div class="cfr_top_img left imghover">
+						<img src="img/chufang_img2.jpg" />
+						<div class="cf_title_ot">
+							<h2>FALANKE&nbsp;<span>DESIGN</span></h2>
+							<p>
+								经典橱柜系列
+							</p>
+						</div>
+						<div class="money">
+							￥1388.00
+						</div>
+						<a href="#"></a>
+					</div>
+					<div class="cfr_top_img right imghover">
+						<img src="img/chufang_img3.jpg" />
+						<div class="cf_title_ot">
+							<h2>FALANKE&nbsp;<span>DESIGN</span></h2>
+							<p>
+								瓦格碗柜
+							</p>
+						</div>
+						<div class="money">
+							￥1388.00
+						</div>
+						<a href="#"></a>
+					</div>
+
+					<div class="clear">
+
+					</div>
+
+				</div>
+				<div class="cf_right_bottom imghover">
+					<img src="img/chufang_img4.jpg" />
+					<div class="cf_title_ot">
+						<h2>FALANKE</h2>
+						<h3>DESIGN</h3>
+						<p>
+							经典橱柜系列
+						</p>
+					</div>
+					<div class="money">
+						￥1388.00
+					</div>
+					<a href="#"></a>
+				</div>
+			</div>
+			<div class="clear">
+
+			</div>
+
+		</div>
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-08
+        	描述：客厅
+        -->
+		<div id="index_2">
+
+		</div>
+		<div class="width_twelve center fenlei_title">
+			<h3>
+				客厅
+			</h3>
+			<ul class="list_style_none">
+				<li class="fenlei_selected">
+					<a href="#">热门</a>
+				</li>
+				<li>
+					<a href="#">
+						其他
+					</a>
+				</li>
+				<li>
+					<a href="#">查看更多&gt;&gt;</a>
+				</li>
+			</ul>
+			<div class="clear">
+
+			</div>
+		</div>
+
+		<div class="keting width_twelve center">
+			<div class="kt_left left imghover">
+				<img src="img/keting_1.jpg" />
+
+				<div class="kt_title text_center">
+					<div>
+						<p>方格展品架</p>
+						<p>1388.00</p>
+					</div>
+
+				</div>
+				<a href="#"></a>
+			</div>
+			<div class="kt_right right">
+				<div class="ktr_top ">
+					<div class="ktr_top_left left imghover">
+						<img src="img/keting_2.jpg" />
+						<div class="kt_title text_center">
+							<div>
+								<p>画板电视柜</p>
+								<p>1388.00</p>
+							</div>
+
+						</div>
+						<a href=""></a>
+					</div>
+					<div class="ktr_top_right right imghover">
+						<img src="img/keting_3.jpg" />
+						<div class="kt_title text_center">
+							<div>
+								<p>方格画板格</p>
+								<p>1388.00</p>
+							</div>
+						</div>
+						<a href="#"></a>
+					</div>
+
+				</div>
+				<div class="ktr_bottom">
+					<div class="ktr_bottom_left left imghover">
+						<img src="img/keting_4.jpg" />
+						<div class="kt_title text_center">
+							<div>
+								<p>鹅卵石沙发</p>
+								<p>1388.00</p>
+							</div>
+
+						</div>
+						<a href="#"></a>
+					</div>
+					<div class="ktr_bottom_right right imghover">
+						<img src="img/keting_5.jpg" />
+						<div class="kt_title text_center">
+							<div>
+								<p>作业本沙发</p>
+								<p>1388.00</p>
+							</div>
+						</div>
+						<a href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="clear">
+
+			</div>
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-08
+        	描述：卧室
+        -->
+		<div id="index_3">
+
+		</div>
+		<div class="width_twelve center fenlei_title">
+			<h3>
+				卧室
+			</h3>
+			<ul class="list_style_none">
+				<li class="fenlei_selected">
+					<a href="#">热门</a>
+				</li>
+				<li>
+					<a href="#">
+						其他
+					</a>
+				</li>
+				<li>
+					<a href="#">查看更多&gt;&gt;</a>
+				</li>
+			</ul>
+			<div class="clear">
+
+			</div>
+		</div>
+
+		<div class="width_twelve center woshi">
+			<div class="woshi_top">
+				<div class="wt_left imghover left">
+					<img src="img/woshi_1.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>素洁双人床</p>
+							<p>1388.00</p>
+						</div>
+
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="wt_lefts imghover left">
+					<img src="img/woshi_2.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>画板床头柜</p>
+							<p>1388.00</p>
+						</div>
+
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="wt_lefts imghover left">
+					<img src="img/woshi_3.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>画板斗柜</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+
+			</div>
+
+			<div class="woshi_bottom">
+				<div class="wb_left imghover">
+					<img src="img/woshi_4.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>多层斗柜</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="wb_left imghover">
+					<img src="img/woshi_5.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>手推床头柜</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="wb_leftb imghover">
+					<img src="img/woshi_6.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>手推床头柜</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-08
+        	描述：餐厅
+        -->
+		<div id="index_4">
+
+		</div>
+		<div class="width_twelve center fenlei_title">
+			<h3>
+				餐厅
+			</h3>
+			<ul class="list_style_none">
+				<li class="fenlei_selected">
+					<a href="#">热门</a>
+				</li>
+				<li>
+					<a href="#">
+						其他
+					</a>
+				</li>
+				<li>
+					<a href="#">查看更多&gt;&gt;</a>
+				</li>
+			</ul>
+			<div class="clear">
+
+			</div>
+		</div>
+		<div class="width_twelve center canting ">
+			<div class="ct_top">
+				<div class="ct_imgo imghover">
+					<img src="img/chanting_1.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>结构咖啡椅</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="ct_imgt imghover">
+					<img src="img/chanting_2.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>画板餐厅</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="ct_imgs imghover">
+					<img src="img/chanting_3.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>方形餐桌</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="clear">
+
+				</div>
+			</div>
+
+			<div class="ct_bottom">
+
+				<div class="ct_left imghover left">
+					<img src="img/chanting_4.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>瓦雀餐桌</p>
+							<p>1388.00</p>
+						</div>
+
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="ct_lefts imghover left">
+					<img src="img/chanting_5.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>椭圆餐厅椅</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="ct_lefts imghover left">
+					<img src="img/chanting_6.jpg" />
+					<div class="kt_title text_center">
+						<div>
+							<p>圆形櫈</p>
+							<p>1388.00</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="clear">
+
+				</div>
+			</div>
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-09
+        	描述：视频展示
+       -->
+		<div id="index_5">
+
+		</div>
+		<div class="width_twelve center spzhanshi">
+			<div class="sp_video">
+				<img src="img/shipin_img.jpg" />
+			</div>
+			<div class="sp_title">
+				<p>生活，有&nbsp;<span>法兰克</span>，更美好！</p>
+				<a href="####"><img src="img/shipin_icon.png" /></a>
+			</div>
+		</div>
+				
+		<div class="index_video">
+						
+			<video autoplay loop poster="polina.jpg" id="bgvid" controls="controls">
+				<source src="video/103e6af72e7114c97fe6a4422594fbf7.mp4" type="video/mp4"></source>			
+			</video>
+			
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-09
+        	描述：精品套装
+       -->
+		<div id="index_6">
+
+		</div>
+		<div class="width_twelve center ">
+			<div class="title_two text_center">
+				<h3>精品套装／定义你的与众不同</h3>
+				<a href="#">查看更多&gt;&gt;</a>
+			</div>
+			<div class="jptaozhuang">
+				<div class="tz_img imghover">
+					<img src="img/taozhuang_1.jpg" />
+					<div class="jp_title">
+						<div>
+							<h3>
+								FALANKE&nbsp;<span>DESIGN</span>
+        					</h3>
+							<h4>
+        						素洁经典系列
+        					</h4>
+							<p>
+								属于你个人的空间
+							</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="tz_img imghover">
+					<img src="img/taozhuang_2.jpg" />
+					<div class="jp_title">
+						<div>
+							<h3>
+								FALANKE&nbsp;<span>DESIGN</span>
+        					</h3>
+							<h4>
+        						素洁经典系列
+        					</h4>
+							<p>
+								属于你个人的空间
+							</p>
+						</div>
+					</div>
+					<a href="#"></a>
+				</div>
+				<div class="clear">
+
+				</div>
+			</div>
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-09
+        	描述：案例开始
+        -->
+		<div id="index_7">
+
+		</div>
+
+		<div class="width_twelve center al_zhanshi ">
+			<div class="title_two text_center">
+				<h3>案例展示／3D展示／身临其境</h3>
+				<a href="#">查看更多&gt;&gt;</a>
+			</div>
+
+			<div class="kt_left left imghover">
+				<img src="img/zhangshi_1.jpg" />
+
+				<div class="bf_icon text_center">
+					<img src="img/zhangshi_icon.png" />
+				</div>
+				<a href="#"></a>
+			</div>
+			<div class="kt_right right">
+
+				<div class="ktr_bottom">
+					<div class="ktr_bottom_left left imghover">
+						<img src="img/zhangshi_2.jpg" />
+						<div class="bf_icon text_center">
+							<img src="img/zhangshi_icon.png" />
+						</div>
+						<a href="#"></a>
+					</div>
+					<div class="ktr_bottom_right right imghover">
+						<img src="img/zhangshi_3.jpg" />
+						<div class="bf_icon text_center">
+							<img src="img/zhangshi_icon.png" />
+						</div>
+						<a href="#"></a>
+					</div>
+				</div>
+				<div class="ktr_top ">
+					<div class="ktr_top_left left imghover">
+						<img src="img/zhangshi_4.jpg" />
+						<div class="bf_icon text_center">
+							<img src="img/zhangshi_icon.png" />
+						</div>
+						<a href=""></a>
+					</div>
+					<div class="ktr_top_right right imghover">
+						<img src="img/zhangshi_5.jpg" />
+						<div class="bf_icon text_center">
+							<img src="img/zhangshi_icon.png" />
+						</div>
+						<a href="#"></a>
+					</div>
+
+				</div>
+			</div>
+			<div class="clear">
+
+			</div>
+		</div>
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-09
+        	描述：页脚口号
+        -->
+		<div class="bottom_bg big_width">
+			<div class="bg_img">
+				<img src="img/bottom_bg.jpg" />
+			</div>
+			<div class="bottom_icon">
+				<ul class="list_style_none">
+					<li>
+						<img src="img/bottom_icon_1.png" />
+						<p>一站式体验</p>
+						<h3>设计配送</h3>
+					</li>
+					<li>
+						<img src="img/bottom_icon_2.png" />
+						<p>砍掉中间环节</p>
+						<h3>自有工厂</h3>
+					</li>
+					<li>
+						<img src="img/bottom_icon_3.png"/>
+						<p>产业链全打通</p>
+						<h3>流程透明</h3>
+					</li>
+					<li>
+						<img src="img/bottom_icon_4.png" />
+						<p>世界优质供应商</p>
+						<h3>产地直供</h3>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-09
+        	描述：页脚
+       -->
+		<div class="footer_box">
+			<div class="footer width_twelve center">
+				<div class="footer_left">
+					<ul>
+						<li>帮助中心</li>
+						<li>
+							<a href="help.html">购物流程</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+					</ul>
+					<ul>
+						<li>售后服务</li>
+						<li>
+							<a href="#">退换货说明</a>
+						</li>
+						<li>
+							<a href="#">退款说明</a>
+						</li>
+						<li>
+							<a href="#">签收说明</a>
+						</li>
+						<li>
+							<a href="#">投诉建议</a>
+						</li>
+					</ul>
+					<ul>
+						<li>家居资讯</li>
+						<li>
+							<a href="#">家居新闻</a>
+						</li>
+						<li>
+							<a href="#">家居百科</a>
+						</li>
+						<li>
+							<a href="#">家居产品快讯</a>
+						</li>
+					</ul>
+					<ul>
+						<li>关于我们</li>
+						<li>
+							<a href="#">线下体验馆</a>
+						</li>
+						<li>
+							<a href="#">京东旗舰店</a>
+						</li>
+						<li>
+							<a href="#">天猫旗舰店</a>
+						</li>
+					</ul>
+					<ul>
+						<li>在线咨询</li>
+						<li>
+							<a href="#">客服中心</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_right">
+					<div class="fr_left">
+						<div>
+							<img src="img/erweima.jpg" />
+							<p>
+								官方微信
+							</p>
+						</div>
+						<div>
+							<img src="img/erweima.jpg" />
+							<p>
+								官方微博
+							</p>
+						</div>
+
+					</div>
+
+					<div class="fr_right">
+						<div>
+							<img src="img/bottom_logo.png" />
+							<p>
+								021-65976918
+							</p>
+						</div>
+
+					</div>
+					<div class="clear">
+
+					</div>
+				</div>
+				<div class="clear">
+
+				</div>
+
+				<div class="footer_fenge">
+
+				</div>
+
+				<div class="copy text_center">
+					<p>
+						京公网安备 110000000号|京ICP证0000号 互联网出版许可证编号新出网证(京)字666号|出版物经营许可证 Copyright © 20015 - 2017 版权所有
+					</p>
+				</div>
+
+			</div>
+		</div>
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-09
+        	描述：锚点导航
+      -->
+      <style>
+      	.gmd_nav{
+      		top: 180px;
+      	}
       </style>
-      <defs>
-      </defs>
 
-      <g id="window_1_" class="st1">
-      	<rect x="150.5" y="47.4" class="st20" width="301.8" height="479.4"/>
-      	<path class="st23" d="M151.3,207.6c0,0,35.1-37.7,58.9-33.4c30.4,5.6,44.6,43.6,59.8,41.8c15.2-1.9,30-19.9,46.1-21.4
-      		s29.8,18.6,49.5,8.4c19.6-10.3,33.6-33.9,55.4-40.2c29.2-8.4,31.2,19.6,31.2,19.6v344.4c0,0-211.6,0.8-298.2,0
-      		C133.9,526.6,151.3,207.6,151.3,207.6z"/>
-      	<path class="st22" d="M150.5,352.7c0,0,22.3-52.7,83-52.7s64.8,32.2,112.5,26.4c30-3.7,73.2-43.4,106.2-26.4c0,41.1,0,226.8,0,226.8
-      		H154L150.5,352.7z"/>
-      	<g>
-      		<path class="st2" d="M450.2,289.3v201H165.3V317v-27.7H450.2 M458.2,281.3h-8H165.3h-8v8V317v173.3v8h8h284.9h8v-8v-201V281.3
-      			L458.2,281.3z"/>
-      	</g>
-      	<g>
-      		<path class="st3" d="M443.6,282.9v201H158.6v-201H443.6 M463.6,262.9h-20H158.6h-20v20v201v20h20h284.9h20v-20v-201V262.9
-      			L463.6,262.9z"/>
-      	</g>
-      	<g>
-      		<path class="st2" d="M451.2,60.9v201H166.3v-201H451.2 M459.2,52.9h-8H166.3h-8v8v201v8h8h284.9h8v-8v-201V52.9L459.2,52.9z"/>
-      	</g>
-      	<g>
-      		<path class="st3" d="M443.6,54.3v201H158.6v-201H443.6 M463.6,34.3h-20H158.6h-20v20v201v20h20h284.9h20v-20v-201V34.3L463.6,34.3
-      			z"/>
-      	</g>
-      	<rect x="95.7" y="499.3" class="st2" width="409.8" height="45.3"/>
-      </g>
-
-      <path id="tige" class="st4 st15" d="M300.8,398.4c0,0,2.1-60.3,1.7-80.3c-0.5-23-6.2-92-6.2-92"/>
-        <path id="tige-3" class="st12" d="M298.1,398.4c0,0-2.1-60.3-1.7-80.3c0.5-23,6.2-92,6.2-92"/>
-        <path id="tige-2" class="st12" d="M300.5,399.8c3.1-5.4,9-15,12.1-20.3c5.5-9.6,9.2-23.4,8-34.4c-1.8-15.6-12.5-28.4-21.5-41.2
-      	c-5.9-8.5-20.9-19.3-21.3-32.7c-0.4-16.4,14.1-35.8,21.3-46.3"/>
-      <path id="tige-1" class="st12" d="M298.2,399.8c-3.1-5.4-9-15-12.1-20.3c-5.5-9.6-9.2-23.4-8-34.4c1.8-15.6,12.5-28.4,21.5-41.2
-      	c5.9-8.5,20.9-19.3,21.3-32.7c0.4-16.4-14.1-35.8-21.3-46.3"/>
-      <g id="pot">
-      	<path id="bottom" class="st5" d="M269.9,499.3h59.6c6.1,0,11.3-4.4,12.3-10.4l11.6-71.6h-108l12.2,71.7
-      		C258.7,495,263.9,499.3,269.9,499.3z"/>
-      	<polygon id="shadow" class="st2" points="245.3,419.3 349.5,442 353.3,419.3 	"/>
-      	<path id="top" class="st5" d="M357.9,419.3H241c-4,0-7.2-3.2-7.2-7.2v-13.6c0-4,3.2-7.2,7.2-7.2h117c4,0,7.2,3.2,7.2,7.2v13.6
-      		C365.1,416.1,361.9,419.3,357.9,419.3z"/>
-      </g>
-      <g id="head">
-      	<g>
-      		<g>
-      			<path class="st6" d="M333.1,185.3c-0.9-0.9-1.8-1.8-2.7-2.6c1.2-0.2,2.5-0.5,3.7-0.8c18.6-4.9,31.7-16.6,29.2-26.3
-      				c-2.5-9.7-19.6-13.6-38.2-8.7c-1.2,0.3-2.5,0.7-3.6,1.1c0.4-1.2,0.8-2.4,1.1-3.6c5.1-18.6,1.5-35.8-8.1-38.5
-      				c-9.6-2.7-21.5,10.3-26.6,28.9c-0.3,1.2-0.6,2.5-0.9,3.7c-0.8-0.9-1.7-1.9-2.6-2.8c-13.5-13.8-30.1-19.2-37.2-12.2
-      				c-7.1,7-1.9,23.8,11.5,37.6c0.9,0.9,1.8,1.8,2.7,2.6c-1.2,0.2-2.5,0.5-3.7,0.8c-18.6,4.9-31.7,16.6-29.2,26.3
-      				c2.5,9.7,19.6,13.6,38.2,8.7c1.2-0.3,2.5-0.7,3.6-1.1c-0.4,1.2-0.8,2.4-1.1,3.6c-5.1,18.6-1.5,35.8,8.1,38.5
-      				c9.6,2.7,21.5-10.3,26.6-28.9c0.3-1.2,0.6-2.5,0.9-3.7c0.8,0.9,1.7,1.9,2.6,2.8c13.5,13.8,30.1,19.2,37.2,12.2
-      				C351.8,215.9,346.6,199.1,333.1,185.3z"/>
-      			<path class="st7" d="M334,163.8c-1.2-0.3-2.5-0.6-3.7-0.8c0.9-0.9,1.8-1.7,2.7-2.7c13.3-14,18.2-30.9,11.1-37.8
-      				c-7.2-6.9-23.8-1.2-37.1,12.8c-0.9,0.9-1.7,1.9-2.5,2.8c-0.3-1.2-0.6-2.5-1-3.7c-5.4-18.5-17.5-31.3-27-28.5
-      				c-9.5,2.8-12.9,20.1-7.6,38.6c0.4,1.2,0.8,2.4,1.2,3.6c-1.2-0.4-2.4-0.7-3.7-1c-18.7-4.6-35.7-0.4-38.1,9.3s10.8,21.3,29.5,25.9
-      				c1.2,0.3,2.5,0.6,3.7,0.8c-0.9,0.9-1.8,1.7-2.7,2.7c-13.3,14-18.2,30.9-11.1,37.8c7.2,6.9,23.8,1.2,37.1-12.8
-      				c0.9-0.9,1.7-1.9,2.5-2.8c0.3,1.2,0.6,2.5,1,3.7c5.4,18.5,17.5,31.3,27,28.5c9.5-2.8,12.9-20.1,7.6-38.6
-      				c-0.4-1.2-0.8-2.4-1.2-3.6c1.2,0.4,2.4,0.7,3.7,1c18.7,4.6,35.7,0.4,38.1-9.3C365.8,180,352.6,168.4,334,163.8z"/>
-      		</g>
-      		<g id="face-group">
-
-      				<ellipse transform="matrix(0.3765 -0.9264 0.9264 0.3765 23.0697 382.7565)" class="st8" cx="295.9" cy="174.2" rx="38.2" ry="38.2"/>
-      			<g id="face">
-      				<path id="mouth-crazy" class="st9" d="M315.3,179.2c0,11.9-8.6,21.6-19.2,21.6s-19.3-9.6-19.3-21.6L315.3,179.2z"/>
-      				<path id="mouth-sexy" class="st2 st12" d="M310.2,192.5c-2.7,2.3-9.7,5.1-14.2,5.1c-4.4,0-11.5-2.8-14.2-5.1
-      					c-0.6-0.5-0.6-1.4,0-1.9c2.6-2.1,9.4-6.7,14.1-1.4c4.7-5.2,11.5-0.7,14.1,1.4C310.8,191.1,310.8,192,310.2,192.5z"/>
-      				<path id="mouth-happy" class="st10" d="M307.5,188.6c0,5.1-5.1,9.3-11.4,9.3c-6.3,0-11.4-4.1-11.4-9.3"/>
-      				<line id="mouth-cool" class="st10 st12" x1="286.6" y1="193.7" x2="305.2" y2="193.7"/>
-      				<g id="eyes-crazy" class="st12">
-      					<circle id="eye-left_7_" class="st2" cx="278.8" cy="163.3" r="6.2"/>
-      					<circle id="eye-right_11_" class="st2" cx="312.3" cy="159.3" r="6.9"/>
-      				</g>
-      				<g id="eyes-sexy" class="st12">
-      					<g id="eye-left_6_">
-      						<path id="eye-right_10_" class="st10" d="M286.6,161.4c0,2.5-2.5,4.6-5.6,4.6c-1.5,0-2.9-0.5-3.9-1.2c-1.1-0.8-1.8-2-1.8-3.4"
-      							/>
-      						<line class="st11" x1="274.1" y1="167.2" x2="276.4" y2="164.7"/>
-      						<line class="st11" x1="280.7" y1="169.6" x2="280.9" y2="166.2"/>
-      						<line class="st11" x1="287.9" y1="167.1" x2="285.5" y2="164.7"/>
-      					</g>
-      					<g id="eye-right_8_">
-      						<path id="eye-right_9_" class="st10" d="M316.4,161.5c0,2.5-2.5,4.6-5.6,4.6c-1.5,0-2.9-0.5-3.9-1.2c-1.1-0.8-1.8-2-1.8-3.4"
-      							/>
-      						<line class="st11" x1="303.9" y1="167.2" x2="306.3" y2="164.7"/>
-      						<line class="st11" x1="310.6" y1="169.7" x2="310.8" y2="166.3"/>
-      						<line class="st11" x1="317.7" y1="167.2" x2="315.3" y2="164.8"/>
-      					</g>
-      				</g>
-      				<g id="eyes-happy" class="st10">
-      					<path id="eye-left_5_" d="M305.1,166.1c0-2.5,2.5-4.6,5.6-4.6c3.1,0,5.7,2.1,5.7,4.6"/>
-      					<path id="eye-right_7_"  d="M275.4,166.1c0-2.5,2.5-4.6,5.6-4.6s5.7,2.1,5.7,4.6"/>
-      				</g>
-      				<g id="cheeks" class="st19">
-      					<circle class="st7" cx="274.6" cy="178.6" r="6.4"/>
-      					<circle class="st7" cx="316.7" cy="178.6" r="6.4"/>
-      				</g>
-      			</g>
-      			<g id="glasses" class="st2 st12">
-      				<g>
-      					<path class="st2" d="M311.7,179.8h6.6c6.9,0,12.5-5.6,12.5-12.5v-6.2c0-4.2-3.4-7.6-7.6-7.6h-15.4c-4.7,0-8.6,3.9-8.6,8.6v5.3
-      						C299.2,174.2,304.8,179.8,311.7,179.8z"/>
-      					<path class="st2" d="M279.7,179.8h-6.6c-6.9,0-12.5-5.6-12.5-12.5v-6.2c0-4.2,3.4-7.6,7.6-7.6h15.4c4.7,0,8.6,3.9,8.6,8.6v5.3
-      						C292.2,174.2,286.6,179.8,279.7,179.8z"/>
-
-
-      				<path class="st16" d="M289.8,164.2c0,0,4.3-0.8,5.8-0.8s5.8,0.8,5.8,0.8"/>
-      				<path class="st17" d="M322.4,159.4L322.4,159.4c-1-1-2.7-1-3.7,0l-10.7,10.7c-1,1-1,2.7,0,3.7v0c1,1,2.7,1,3.7,0l10.7-10.7
-      					C323.4,162.1,323.4,160.4,322.4,159.4z"/>
-      				<path class="st17" d="M284.6,165.7L284.6,165.7c-0.9-0.9-2.3-0.9-3.1,0l-5.8,5.8c-0.9,0.9-0.9,2.3,0,3.1l0,0
-      					c0.9,0.9,2.3,0.9,3.1,0l5.8-5.8C285.5,168,285.5,166.6,284.6,165.7z"/>
-      				<path class="st17" d="M280.8,157.6L280.8,157.6c-1-1-2.7-1-3.7,0l-10.7,10.7c-1,1-1,2.7,0,3.7l0,0c1,1,2.7,1,3.7,0l10.7-10.7
-      					C281.9,160.3,281.9,158.6,280.8,157.6z"/>
-      				</g>
-      				<path class="st10" d="M289.6,164.2c0,0,4.3-0.8,5.8-0.8c1.5,0,5.8,0.8,5.8,0.8"/>
-      			</g>
-      			<path id="shadow" class="st21" d="M320.8,145.3c-0.3-0.3-0.7-0.6-1-0.9c13.9,14,14.9,36.6,1.8,51.8
-      				c-13.5,15.7-36.9,17.7-52.9,4.9c0.7,0.7,1.4,1.4,2.2,2.1c16,13.8,40.1,12,53.9-4C338.6,183.2,336.8,159,320.8,145.3z"/>
-      		</g>
-      	</g>
-      </g>
-
-      <g id="leaf-group-1">
-      	<line id="leaf-stem-1" class="st4" x1="300" y1="366" x2="289" y2="360" />
-      	<g id="leaf-1">
-      			<path class="st18" d="M224.7,331.3c0,0,22.5-9.6,43.5-3.4c17.6,5.2,28,20.1,24.1,30.5c-3.9,10.4-22,15.8-38.2,7.1
-      				C234.6,355.1,224.7,331.3,224.7,331.3z"/>
-      			<path class="st19" d="M288.1,359.2c0,0-3.1-2-7.9-5c-1.2-0.7-2.5-1.5-3.8-2.3c-1.4-0.8-2.8-1.7-4.3-2.5c-1.5-0.9-3.1-1.7-4.7-2.6
-      				c-1.6-0.9-3.3-1.7-4.9-2.4c-0.8-0.4-1.7-0.8-2.5-1.1c-0.8-0.3-1.7-0.7-2.5-1c-1.7-0.6-3.4-1.3-5-1.8c-1.6-0.5-3.2-1.1-4.8-1.5
-      				c-1.5-0.5-3-0.9-4.3-1.3c-5.4-1.6-9-2.6-9-2.6s0.2,0,0.7,0.1c0.4,0.1,1.1,0.1,1.9,0.2c1.6,0.2,3.9,0.6,6.7,1.2
-      				c1.4,0.3,2.9,0.6,4.4,1c1.6,0.4,3.2,0.8,4.9,1.3c1.7,0.5,3.4,1,5.2,1.7c0.9,0.3,1.8,0.7,2.6,1c0.9,0.4,1.7,0.7,2.6,1.1
-      				c1.7,0.8,3.4,1.7,5,2.6c1.6,0.9,3.2,1.8,4.7,2.8c3,1.9,5.7,3.8,7.9,5.4C285.4,356.6,288.1,359.2,288.1,359.2z"/>
-      	</g>
-      </g>
-      <g id="leaf-group-2">
-      	<line  id="leaf-stem-2"  class="st4" x1="300" y1="293.8" x2="287.2" y2="287"/>
-      	<g id="leaf-2">
-      		<path class="st18" d="M224.1,259.6c0,0,22.7-9.3,43.5-2.9c17.6,5.4,27.8,20.5,23.7,30.8c-4,10.3-22.2,15.5-38.3,6.6
-      			C233.7,283.6,224.1,259.6,224.1,259.6z"/>
-      		<path class="st19" d="M287.5,287.2c0,0-3.2-1.9-8.1-4.7c-1.2-0.7-2.5-1.4-3.9-2.2c-1.4-0.8-2.9-1.5-4.4-2.4
-      			c-1.5-0.8-3.2-1.6-4.8-2.4c-1.6-0.8-3.3-1.5-5-2.3c-0.8-0.3-1.7-0.7-2.6-1c-0.9-0.3-1.7-0.6-2.6-0.9c-1.7-0.6-3.4-1.1-5.1-1.6
-      			c-1.7-0.5-3.3-0.9-4.8-1.4c-1.5-0.4-3-0.8-4.4-1.1c-5.4-1.4-9.1-2.3-9.1-2.3s0.2,0,0.7,0.1c0.4,0,1.1,0.1,1.9,0.2
-      			c1.6,0.2,4,0.4,6.7,0.9c1.4,0.2,2.9,0.5,4.5,0.8c1.6,0.3,3.2,0.7,4.9,1.1c1.7,0.4,3.5,0.9,5.2,1.5c0.9,0.3,1.8,0.6,2.7,0.9
-      			c0.9,0.3,1.7,0.7,2.6,1c1.7,0.8,3.4,1.5,5.1,2.4c1.7,0.8,3.2,1.7,4.8,2.6c3.1,1.7,5.8,3.5,8.1,5.1
-      			C284.7,284.7,287.5,287.2,287.5,287.2z"/>
-      	</g>
-      </g>
-      <g id="leaf-group-3">
-      	<line id="leaf-stem-3" class="st4" x1="301.5" y1="287.1" x2="313.3" y2="278.1"/>
-      	<g id="leaf-3">
-      		<path class="st18" d="M377.7,249.2c0,0-8.7,22.9-27.7,33.7c-16,9.1-33.9,6.2-38.7-3.8c-4.8-10,3.9-26.8,21.4-32.5
-      			C353.6,239.8,377.7,249.2,377.7,249.2z"/>
-      		<path class="st19" d="M368.4,252.7c0,0-3.6,1-9,2.6c-1.3,0.4-2.8,0.9-4.3,1.3c-1.5,0.5-3.1,1-4.8,1.6c-1.6,0.6-3.3,1.2-5,1.8
-      					c-1.7,0.6-3.4,1.3-5.1,2.1c-0.8,0.4-1.7,0.8-2.5,1.2c-0.8,0.4-1.6,0.8-2.4,1.2c-1.6,0.9-3.2,1.7-4.7,2.6
-      					c-1.5,0.9-2.9,1.7-4.3,2.6c-1.4,0.8-2.6,1.6-3.8,2.4c-4.7,3-7.9,5-7.9,5s0.2-0.2,0.5-0.4c0.3-0.3,0.8-0.7,1.4-1.3
-      					c1.2-1.1,3-2.6,5.3-4.3c1.1-0.9,2.3-1.8,3.7-2.7c1.3-0.9,2.7-1.9,4.2-2.8c1.5-0.9,3-1.9,4.7-2.8c0.8-0.5,1.7-0.9,2.5-1.3
-      					c0.9-0.4,1.7-0.8,2.5-1.2c1.7-0.7,3.5-1.4,5.2-2.1c1.7-0.6,3.5-1.2,5.2-1.7c3.4-1,6.6-1.8,9.3-2.4
-      					C364.7,253,368.4,252.7,368.4,252.7z"/>
-        </g>
-      </g>
-      <g id="leaf-group-4">
-      	<line id="leaf-stem-4" class="st4" x1="303" y1="358.1" x2="312.6" y2="351.2"/>
-      	<g id="leaf-4">
-      		<path class="st18" d="M378.2,317.7c0,0-7.7,23.2-26.2,34.9c-15.6,9.8-33.6,7.7-38.8-2.1s2.7-26.9,20-33.4
-      			C353.8,309.3,378.2,317.7,378.2,317.7z"/>
-      		<path class="st19" d="M369.2,323.2c0,0-3.6,1.1-8.9,2.8c-1.3,0.4-2.8,0.9-4.3,1.4c-1.5,0.5-3.1,1.1-4.7,1.7c-1.6,0.6-3.3,1.3-5,2
-      					c-1.7,0.7-3.4,1.4-5,2.2c-0.8,0.4-1.7,0.8-2.5,1.2c-0.8,0.4-1.6,0.8-2.4,1.3c-1.6,0.9-3.1,1.8-4.6,2.7c-1.5,0.9-2.9,1.8-4.2,2.7
-      					c-1.3,0.9-2.6,1.7-3.8,2.5c-4.6,3.1-7.7,5.2-7.7,5.2s0.2-0.2,0.5-0.5c0.3-0.3,0.8-0.7,1.4-1.3c1.2-1.1,3-2.6,5.2-4.4
-      					c1.1-0.9,2.3-1.8,3.6-2.8c1.3-1,2.7-2,4.1-2.9c1.5-1,3-2,4.6-2.9c0.8-0.5,1.6-0.9,2.5-1.4c0.8-0.5,1.6-0.8,2.5-1.3
-      					c1.7-0.8,3.5-1.5,5.2-2.2c1.7-0.7,3.4-1.3,5.1-1.8c3.3-1.1,6.5-1.9,9.2-2.6C365.5,323.6,369.2,323.2,369.2,323.2z"/>
-      	</g>
-      </g>
-      </svg>
-        <div class="buttons">
-          <button id="btn-happy">高兴</button>
-          <button id="btn-crazy">发疯</button>
-          <button id="btn-sexy">性感</button>
-          <button id="btn-cool">帅</button>
+		<div class="md_nav gmd_nav">
+			<ul>
+				<li class="md_selected">
+					<a title="1" href="javascript:void(0)">厨房</a>
+				</li>
+				<li>
+					<a title="2" href="javascript:void(0)">客厅</a>
+				</li>
+				<li>
+					<a title="3" href="javascript:void(0)">卧室</a>
+				</li>
+				<li>
+					<a title="4" href="javascript:void(0)">餐厅</a>
+				</li>
+				<li>
+					<a title="5" href="javascript:void(0)">视频</a>
+				</li>
+				<li>
+					<a title="6" href="javascript:void(0)">案例</a>
+				</li>
+				<li>
+					<a title="7" href="javascript:void(0)">3D展示</a>
+				</li>
+			</ul>
+		</div>
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-09
+        	描述：返回顶端
+       -->
+        
+        <div class="index_fzgn">
+        	<a href="####" title="预约定制" class="yydd">
+        		<p>预约<br />定制</p>
+        		<img src="img/fzgn_icon1.png" />
+        	</a>
+        	
+			<a href="tiyanguan.html" title="线下体验馆" >
+				<p>
+					体验<br />馆
+				</p>
+				<img src="img/fzgn_icon2.png" />
+			</a>
         </div>
-      </div>
+		<div class="back_top">
+			
+			<!--<a href="####" title="客服"><img src="img/back_kefu.png"/></a>-->
+			<a href="#" title="返回顶部">
+				<p>返回<br />顶部</p>
+				<img src="img/back_top_icon.png" />
+			</a>
+			
+		</div>
+		
+		<!--
+        	作者：yuechunqiu@163.com
+        	时间：2017-06-27
+        	描述：预约弹出框
+      -->
+		<div class="yuyuebox" id="yuyuebox">
+			<div class="yuyue_con">
+				<div class="yyc_bg">
+					<img src="img/subpage/modal-gloss-3.png" />
+					
+				</div>
 
-      <div style="text-align:center;clear:both;margin-top:80px">
-        <script src="/gg_bd_ad_720x90.js" type="index_page/text/javascript"></script>
-        <script src="/follow.js" type="index_page/text/javascript"></script>
-      </div>
+				<div class="yuyuec_title">
+					<h2>预约定制</h2>
+					<img src="img/subpage/yydd_cuohao.png" />
+					<div class="clear">
 
-      <script src='index_page/js/TweenMax.min.js'></script>
+					</div>
+				</div>
+				<form action="" method="post">
+					<div class="yyform_input">
+						<label>手机号</label>
+						<input type="text" name="mobnumber" placeholder="你的手机号" />
+					</div>
+					<div class="yyform_input">
+						<label>城市</label>
+						<input type="text" name="mobnumber" placeholder="" value="上海" />
+					</div>
+					<!--<div class="yyform_input">
+						<label>城市</label>
+						
+						<select name="">
+							<option value="">上海</option>
+							<option value="">北京</option>
+							<option value="">杭州</option>
+							<option value="">苏州</option>
+							<option value="">南京</option>
+						</select>
+					</div>-->
+					<!--<div class="yyform_input">
+						<label>验证码</label>
+						<input type="text" name="yznumber" placeholder="手机验证码" />
+						<input type="button" value="获取验证码"></input>
+					</div>-->
+					<!--<div class="yyform_input">
+						<label>城市选项</label>
+						<div id="area" class="diplay_inline_block">
+													
+							<select name="dzxx province">
+								<option value="0">整套定制</option>
+								<option value="1">单品定制</option>
+							</select>
+							<select name="dzxx city">
+								<option value="0">整套定制</option>
+								<option value="1">单品定制</option>
+							</select>
+							<select name="dzxx">
+								<option value="0">整套定制</option>
+								<option value="1">单品定制</option>
+							</select>
+						</div>
+					</div>-->
+					<!--<div class="yyform_input">
+						<label></label>
+						<input type="checkbox" name="" id="" value="" checked="checked" /> 阅读并同意
+						<a href="#">《法兰克用户协议》</a>
+					</div>-->
 
-      <script src="index_page/js/index.js"></script>
+					<div class="yyform_input">
+						<label for=""></label>
+						<input type="submit" name="" id="" value="确认预约" />
+					</div>
+				</form>
 
-    </div>
-  </div>
-  <!-- /view -->
-  <script src="nav/js/classie.js"></script>
-  <script src="nav/js/dummydata.js"></script>
-  <script src="nav/js/main.js"></script>
-  <script>
-    (function() {
-      var menuEl = document.getElementById('ml-menu'),
-        mlmenu = new MLMenu(menuEl, {
-          // breadcrumbsCtrl : true, // show breadcrumbs
-          // initialBreadcrumb : 'all', // initial breadcrumb text
-          backCtrl: false, // show back button
-          // itemsDelayInterval : 60, // delay between each menu item sliding animation
-          // onItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
-        });
+			</div>
+		</div>
+		
 
-      // mobile menu toggle
-      var openMenuCtrl = document.querySelector('.action--open'),
-        closeMenuCtrl = document.querySelector('.action--close');
-
-      openMenuCtrl.addEventListener('click', openMenu);
-      closeMenuCtrl.addEventListener('click', closeMenu);
-
-      function openMenu() {
-        classie.add(menuEl, 'menu--open');
-      }
-
-      function closeMenu() {
-        classie.remove(menuEl, 'menu--open');
-      }
-
-      // simulate grid content loading
-      var gridWrapper = document.querySelector('.content');
-
-      function loadDummyData(ev, itemName) {
-        ev.preventDefault();
-
-        closeMenu();
-        gridWrapper.innerHTML = '';
-        classie.add(gridWrapper, 'content--loading');
-        setTimeout(function() {
-          classie.remove(gridWrapper, 'content--loading');
-          gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
-        }, 700);
-      }
-    })();
-  </script>
-</body>
+	</body>
 
 </html>
