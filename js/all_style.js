@@ -1095,3 +1095,15 @@ $(function() {
 $(function(){
 	$('.gnav ul li:first-child').hide()
 })
+
+/*
+ * 首页分类图片
+ */
+$(function(){
+   var flimg_wid=$('.gbanner_flej a img').width();
+   $('.gbanner_flej a img').height(flimg_wid*16/9);
+   window.Reset(function(){
+   	 var flimg_wid=$('.gbanner_flej a img').width();
+   	 $('.gbanner_flej a img').height(flimg_wid*16/9);
+   })
+})

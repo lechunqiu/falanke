@@ -262,6 +262,7 @@
 	padding: 10px 0;
 	color: #333333;
 	text-decoration: none;
+	
 }
 
 .gbanner_flej a:hover>span {
@@ -269,16 +270,18 @@
 }
 
 .gbanner_flej a img {
-	width: 20%;
+	width: 26%;
 	vertical-align: middle;
 	margin-left: 8%;
+	margin-right: 2%;
 }
 
 .gbanner_flej span {
 	vertical-align: middle;
-	font-size: 16px;
+	font-size: 14px;
 	display: inline-block;
-	width: 70%;
+	margin: 0 auto;
+	width: 60%;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -351,3 +354,16 @@
 .gerjinav_show{
 	top: 130px;
 }
+.gflegg_box{
+	width: 242px;
+	display: inline-block;
+	vertical-align: top;
+}
+.gbanner_flej{
+	width: auto;
+	white-space: nowrap;
+}
+.gflegg_box a{
+	width: 100%;
+}
+
